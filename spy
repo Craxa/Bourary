@@ -6,8 +6,8 @@
 
 print("-- Chat Spy Executed --")
 print("Type \"spy\" to enable or disable the chat spy.")
-print(" Only Synapse tested (should work with other exploits though)")
-print("ShinyPots#2932")
+print("Only tested if this works executed with Synapse (should work with other exploits though)")
+print("https://github.com/dehoisted/Chat-Spy")
 
 -- Config
 Config = {
