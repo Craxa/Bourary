@@ -99,10 +99,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Craxa/Bourary/main/sp
 end)
 
 d:Button("LShift Sprint",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Craxa/Bourary/main/Sprint",true))()
+loadstring(game:HttpGet(https://raw.githubusercontent.com/Craxa/Bourary/main/SprintLegit",true))()
 end)
 
-d:Button("Xray",function()
+d:Button("Xray *BROKEN*",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Craxa/Bourary/main/Xray",true))()
 end)
 
