@@ -50,9 +50,4 @@ end)
 
 d:Button("ShinyPots#2932",{
  setclipboard("Made by ShinyPots#2932 Credit to Jam3327 For Helping")
-
-d:Button("Jam3327",{
-setclipboard("Made by ShinyPots#2932 Credit to Jam3327 For Helping")
-
-
 }) 
