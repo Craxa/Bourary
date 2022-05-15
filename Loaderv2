@@ -4,23 +4,27 @@ local w = library:CreateWindow("Bounary") -- Creates the window
 
 local b = w:CreateFolder("Teleports")
 
-local c = w:CreateFolder("Other") -- Creates the folder(U will put here your buttons,etc)
+local c = w:CreateFolder("Combat") -- Creates the folder(U will put here your buttons,etc)
 
 local d = w:CreateFolder("Credit") -- Creates the folder(U will put here your buttons,etc)
+
+c:Button("Chat Spy",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Craxa/Bourary/main/spy",true))()
+end)
 
 c:Button("ESP",function()
 loadstring(get:HttpGet"https://raw.githubusercontent.com/Craxa/Bourary/main/esp")
 end)
 
-c:Button("Chat Spy",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Craxa/Bourary/main/spy",true))()
+c:Button("Aimbot (H)",function()
+loadstring(get:HttpGet"https://raw.githubusercontent.com/Craxa/Bourary/main/SA")
 end)
 
 b:Button("C4 Dealer",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(289.118195, 172.931686, 668.732178, -1, 0, 0, 0, 1, 0, 0, 0, -1)
 end)
 
-b:Button("Locker Tp",function()
+b:Button("Flaw's",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(100.819, 172.960999, 99.4658966, 0, 1, 0, 0, 0, -1, -1, 0, 0)
 end)
 
@@ -36,16 +40,52 @@ b:Button("Jewish Store",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(202.070572, 184.03801, 258.033661, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 end)
 
-b:Button("China Town ATM IN",function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(324.310852, 172.929764, 628.775696, -1, 0, 0, 0, 1, 0, 0, 0, -1)
-end)
-
 b:Button("Mask Store",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(145.647369, 170.052902, 1100.05823, 0, 0, 1, 0, 1, -0, -1, 0, 0)
 end)
 
-b:Button("Police gear RISKY",function()
+b:Button("$$$ Store",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(295.158356, 174.240784, 958.895691, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
+
+b:Button("GoMart",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-40.7228127, 185.681412, 459.100159, 1, 0, -0, 0, 0, 1, 0, -1, 0)
+end)
+
+b:Button("China Town ATM IN",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(324.310852, 172.929764, 628.775696, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+end)
+
+b:Button("Police Inside",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(412.616577, 173.37085, 367.465149, 0, 0, 1, 0, -1, 0, 1, 0, -0)
+end)
+
+b:Button("Police Out",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(271.768188, 185.709991, 323.002289, 0, -1, 0, 0, 0, 1, -1, 0, 0)
+end)
+
+b:Button("Bank Inside",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2.57922602, 176.462067, 609.043091, 0.022187531, -0.0439229235, 0.998788536, 0.0158086848, 0.998924971, 0.0435777456, -0.999628842, 0.0148226516, 0.0228580832)
+end)
+
+b:Button("Gold Buyer",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(204.572342, 173.135956, 169.569229, -0.999821663, 0, 0.0189036801, 0, 1, 0, -0.0189036801, 0, -0.999821663)
+end)
+
+b:Button("Trash Job 5K REP",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(397.167572, 179.388992, 129.950073, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+end)
+
+b:Button("Cargo JOB",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-65.1500015, 173.474609, 489.705719, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+end)
+
+b:Button("Printer Asylum",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-351.246887, 166.774017, 639.515076, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+end)
+
+b:Button("Court",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-427.902496, 171.566071, 775.725037, 0, 1, -0, -1, 0, 0, 0, 0, 1)
 end)
 
 d:Button("ShinyPots#2932",{
