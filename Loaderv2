@@ -1,6 +1,8 @@
+game.StarterGui:SetCore("SendNotification", {Title = "ShinyHub"; Text = "ShinyHub Loaded it took 0.1 seconds to Load. Made by ShinyPots#2932 & Jam3327"; Icon = "rbxassetid://9638422437"; Duration = 2 })
+
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
 
-local w = library:CreateWindow("Bounary") -- Creates the window
+local w = library:CreateWindow("ShinyHub") -- Creates the window
 
 local b = w:CreateFolder("Teleports")
 
@@ -56,7 +58,7 @@ b:Button("China Town ATM IN",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(324.310852, 172.929764, 628.775696, -1, 0, 0, 0, 1, 0, 0, 0, -1)
 end)
 
-b:Button("Police Inside",function()
+b:Button("Police Inside DONT USE",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(412.616577, 173.37085, 367.465149, 0, 0, 1, 0, -1, 0, 1, 0, -0)
 end)
 
@@ -98,6 +100,10 @@ end)
 
 d:Button("LShift Sprint",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Craxa/Bourary/main/Sprint",true))()
+end)
+
+d:Button("Xray",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Craxa/Bourary/main/Xray",true))()
 end)
 
 f:Button("ShinyPots#2932",{
