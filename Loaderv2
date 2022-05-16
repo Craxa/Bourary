@@ -12,7 +12,9 @@ local e = w:CreateFolder("Jobs")
 
 local d = w:CreateFolder("Other") -- Creates the folder(U will put here your buttons,etc)
 
-local f = w:CreateFolder("Credit")
+local f = w:CreateFolder("ATMs")
+
+local g = w:CreateFolder("Credit")
 
 c:Button("Aimbot (H)",function()
 loadstring(get:HttpGet'https://raw.githubusercontent.com/Craxa/Bourary/main/SA')
@@ -54,7 +56,7 @@ b:Button("GoMart",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-40.7228127, 185.681412, 459.100159, 1, 0, -0, 0, 0, 1, 0, -1, 0)
 end)
 
-b:Button("China Town ATM IN",function()
+b:Button("China Town",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(324.310852, 172.929764, 628.775696, -1, 0, 0, 0, 1, 0, 0, 0, -1)
 end)
 
@@ -110,7 +112,12 @@ d:Button("Xray *BROKEN*",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Craxa/Bourary/main/Xray",true))()
 end)
 
-f:Button("ShinyPots#2932",{
+
+f:Button("ATM China",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(324.310852, 172.929764, 628.775696, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+end)
+
+g:Button("ShinyPots#2932",{
 setclipboard("Made by ShinyPots#2932 Credit to Jam3327 For Helping")
 
 }) 
