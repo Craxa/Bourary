@@ -1,0 +1,11 @@
+local __newindex
+		__newindex = hookmetamethod(game, "__newindex", function(t, k, v)
+			if (t:IsDescendantOf(Character) and k == "Jump" and v == false) then
+				if Settings.NoJumpCooldown == true then
+					return
+				end
+			end
+
+			return __newindex(t, k, v)
+		end)
+end)
