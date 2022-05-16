@@ -98,8 +98,12 @@ d:Button("Chat Spy",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Craxa/Bourary/main/spy",true))()
 end)
 
-d:Button("LShift Sprint",function()
+d:Button("Legit Shift Sprint",function()
 loadstring(game:HttpGet(https://raw.githubusercontent.com/Craxa/Bourary/main/SprintLegit",true))()
+end)
+
+d:Button("Obv Sprint",function()
+loadstring(game:HttpGet(https://raw.githubusercontent.com/Craxa/Bourary/main/Sprint",true))()
 end)
 
 d:Button("Xray *BROKEN*",function()
