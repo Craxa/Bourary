@@ -4,7 +4,7 @@ local players = game:GetService("Players")
 
 
 
-local sprintSpeed = 20 
+local sprintSpeed = 18 
 
 local walkSpeed = 16 
 
